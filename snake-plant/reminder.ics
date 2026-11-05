@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Pink Nursery//Plant care//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:snake-plant-soil-check@pinknursery
+DTSTAMP:20261105T103826Z
+DTSTART:20261119T090000
+DURATION:PT15M
+RRULE:FREQ=DAILY;INTERVAL=14
+SUMMARY:Check the snake plant’s soil
+DESCRIPTION:Push a finger into the soil. Water only if it is completely dry
+ .\n\nCare guide: https://tilak0709.github.io/pinknursery/snake-plant/
+URL:https://tilak0709.github.io/pinknursery/snake-plant/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check the snake plant’s soil
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
